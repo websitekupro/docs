@@ -35,6 +35,9 @@ module.exports = {
       algoliaOptions: {},
       position: 'left',
     },
+    hubspot: {
+      accountId: 5418301
+    },
     navbar: {
       title: 'Okteto',
       hideOnScroll: false,
@@ -262,7 +265,8 @@ module.exports = {
     }],
     ['docusaurus-gtm-plugin', {
       id: 'GTM-W6RQFNT'
-    }]
+    }],
+    'docusaurus-plugin-hubspot'
   ],
   scripts: [
     '//js.hs-scripts.com/5418301.js'
