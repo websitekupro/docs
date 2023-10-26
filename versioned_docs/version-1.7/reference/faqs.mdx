@@ -68,7 +68,7 @@ $ kubectl patch serviceaccount default -p '{"imagePullSecrets": [{"name": "regcr
 
 > If your resources use a different `serviceAccountName`, replace `default` with that value in the command above.
 
-With this configuration, all the deployments, stateful sets, jobs, and development containers launched in your namespace will automatically use your registry credentials when pulling private images.
+With this configuration, all the Deployments, StatefulSets, Jobs, and development containers launched in your namespace will automatically use your registry credentials when pulling private images.
 
 ## What types of Kubernetes services are supported in Okteto Cloud?
 
